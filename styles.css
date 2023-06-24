@@ -1,0 +1,147 @@
+body {
+    flex-direction: column;
+    background-color: #1f2937;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #f9faf8
+}
+
+header {
+    justify-content: space-between;
+    flex-flow: row wrap
+}
+
+header>ul {
+    flex: 1 0 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px
+}
+
+header>ul>li,header>ul>li>a {
+    list-style-type: none
+}
+
+main {
+    margin: 30px 25%;
+}
+
+article {
+    flex: 1
+}
+
+aside,body,footer,header,main {
+    display: flex;
+    align-items: center
+}
+
+aside {
+    flex: 1;
+    justify-content: center;
+    min-height: 300px
+}
+
+.quote {
+    padding: 0 25%
+}
+
+.quote-author {
+    text-align: right
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0
+}
+
+header>ul>li>a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration-line: none
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9faf8;
+    width: 100%;
+    color: #1f2937
+}
+
+.cards-content {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 25%;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+}
+
+.quote {
+    background-color: #e5e7eb
+}
+
+.quote-content {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937
+}
+
+.btn-sign-up {
+    background-color: #3882f6;
+    padding: 5px 12px;
+    border: 1px solid #3882f6;
+    border-radius: 5px
+}
+
+.sign-up-container {
+    background-color: #f9faf8;
+    width: 100%
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 20px 100px;
+    border: 1px solid #3882f6;
+    border-radius: 5;
+    margin: 40px 25%
+}
+
+.sign-up>.btn-sign-up {
+    border-color: #f9faf8
+}
+
+footer {
+    height: 60px
+}
